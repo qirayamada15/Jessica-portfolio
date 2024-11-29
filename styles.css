@@ -1,0 +1,656 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+/* Header Section */
+.header {
+    background-color: #ffc0cb; /* Baby pink background */
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Logo */
+.header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff; /* White logo text */
+    font-family: 'Comic Sans MS', cursive;
+    margin: 0;
+    display: inline-block;
+}
+
+/* Navbar */
+.navbar {
+    float: right;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-links li {
+    display: inline-block;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #ffffff; /* White links */
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.navbar .nav-links a:hover {
+    background-color: #d1477f; /* Darker pink hover effect */
+    color: #ffe4e6; /* Light pink text */
+}
+
+
+/* Home Section */
+.home {
+    background-color: #ffe4e6; /* Baby pink background */
+    text-align: center;
+    padding: 50px 20px;
+    color: #444;
+    font-family: 'Arial', sans-serif;
+    background-size: 100%;
+    box-sizing: border-box;
+}
+
+.home h1 {
+    font-size: 3rem;
+    color: #d1477f; /* Darker pink for title */
+    margin-bottom: 10px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.home p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+.home .profile-photo {
+    width: 300px;
+    /* height: 150px; */
+    /* border-radius: 50%; Circular photo */
+    /* border: 5px solid #ffc0cb; Baby pink border */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); Soft shadow */
+    margin-bottom: 20px;
+}
+
+.home .btn-primary {
+    background-color: #ff8fab; /* Soft pink for button */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.home .btn-primary:hover {
+    background-color: #d1477f; /* Darker pink on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* About Me Section */
+.about {
+    background-color: #ffe4e6; /* Soft baby pink background */
+    padding: 60px 20px;
+    font-family: 'Arial', sans-serif;
+    color: #444;
+    display: flex;
+    align-items: center; /* Vertically align items */
+    justify-content: center; /* Center the content horizontally */
+    gap: 40px; /* Space between photo and text */
+    text-align: left; /* Left-align text */
+    flex-wrap: wrap; /* Responsive layout for smaller screens */
+}
+
+/* Foto Profil */
+.about .profile-photo {
+    width: 350px;
+    height: 290px;
+    /* border-radius: 50%; Circular profile photo */
+    /* border: 6px solid #ffc0cb; Pink border */
+    /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); Subtle shadow */
+    transition: transform 0.3s ease;
+    flex-shrink: 0; /* Prevent photo from shrinking */
+}
+
+.about .profile-photo:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Konten Teks */
+.about .about-content {
+    max-width: 600px; /* Limit text width */
+}
+
+.about .about-content h2 {
+    font-size: 2.5rem;
+    color: #d1477f; /* Darker pink for the title */
+    margin-bottom: 20px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.about .about-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.moots {
+    padding-top: 30px;
+}
+
+.moots a i {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #d1477f;
+    transition: color 0.3s ease;
+}
+
+
+.cv {
+    
+    background-color: #ff8fab; /* Soft pink for button */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.cv:hover {
+background-color: #d1477f; /* Darker pink on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Skills Section */
+.skills {
+    background-color: #fff0f3; /* Light pink background */
+    padding: 60px 20px;
+    text-align: center;
+    color: #444;
+    font-family: 'Arial', sans-serif;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    color: #d1477f; /* Darker pink */
+    margin-bottom: 30px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.skills .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills .skill-item {
+    background-color: #fce4ec; /* Warna latar yang lembut */
+    color: #333;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 calc(33.33% - 40px); /* Membagi 3 kolom dengan jarak */
+    max-width: calc(33.33% - 40px); /* Batas maksimal untuk menghindari overflow */
+    min-width: 150px; /* Batas minimal agar tidak terlalu kecil */
+    transition: transform 0.3s ease;
+}
+
+.skills .skill-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skills .skill-item i {
+    font-size: 2rem;
+    color: #d1477f; /* Icon color */
+    margin-bottom: 10px;
+}
+
+/* Pop-up Deskripsi */
+.skill-description {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: #333;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    display: none;
+    text-align: center;
+}
+
+.skill-description p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.skill-description button {
+    background-color: #d1477f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.skill-description button:hover {
+    background-color: #b13568;
+}
+
+/* Hidden class */
+.hidden {
+    display: none;
+}
+
+
+/* Projects Section */
+.projects {
+    background-color: #ffe4e6; /* Baby pink background */
+    padding: 60px 20px;
+    color: #444;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    color: #d1477f;
+    margin-bottom: 30px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.projects .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projects .project-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.projects .project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.projects .project-card .project-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.projects .project-card h3 {
+    font-size: 1.5rem;
+    color: #d1477f;
+    margin-bottom: 10px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.projects .project-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.projects .project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #d1477f;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.projects .project-card a:hover {
+    background-color: #a53163;
+}
+
+
+
+
+/* Contact Section */
+.contact {
+    background: linear-gradient(135deg, #ffc0cb, #ffe4e6); /* Gradient pink background */
+    padding: 60px 20px;
+    text-align: center;
+    color: #444;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    color: #d1477f;
+    margin-bottom: 30px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact form label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact form textarea {
+    height: 100px;
+}
+
+.contact form button {
+    background-color: #d1477f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact form button:hover {
+    background-color: #a53163;
+    transform: translateY(-3px);
+}
+
+.contact .social-links {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact .social-links i {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #d1477f;
+    transition: color 0.3s ease;
+}
+
+.contact .social-links a:hover {
+    color: #a53163;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* Footer Section */
+.footer {
+    background-color: #ffe4e6; /* Baby pink background */
+    padding: 40px 20px;
+    color: #444;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1); /* Shadow untuk estetika */
+}
+
+.footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer h3 {
+    color: #d1477f; /* Warna teks utama */
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.footer p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #d1477f;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #a53163; /* Warna hover */
+}
+
+/* Social Media Icons */
+.footer-socials .social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-socials .social-icons a {
+    color: #d1477f;
+    font-size: 1.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-socials .social-icons a:hover {
+    color: #a53163;
+    transform: scale(1.1); /* Sedikit membesar saat hover */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+
+
+
+
+/* Responsif untuk berbagai perangkat */
+@media (max-width: 1024px) {
+    /* Untuk tablet dan layar lebih kecil */
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projects .project-cards {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+}
+
+@media (max-width: 840px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Untuk perangkat ponsel */
+    .nav-links {
+        display: none; /* Sembunyikan navbar pada layar kecil */
+    }
+
+    .home h1 {
+        font-size: 2rem;
+    }
+
+    .home p {
+        font-size: 1rem;
+    }
+
+    .about img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .skill-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill-item {
+        flex: 1 1 calc(50% - 20px); /* Membagi 2 kolom pada layar kecil */
+        max-width: calc(50% - 20px); /* Batas maksimal untuk kolom */
+    }
+
+    .projects .project-card {
+        width: 100%;
+    }
+
+    .footer .container {
+        text-align: center;
+    }
+
+    .contact .social-links {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Untuk ponsel kecil */
+    .home h1 {
+        font-size: 1.5rem;
+    }
+
+    .home p {
+        font-size: 0.9rem;
+    }
+
+    .about img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .skills .skill-item {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .projects .project-card {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+    }
+}

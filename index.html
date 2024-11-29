@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica Ninda Kalistya Putri - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/28a77d929d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <div class="container">
+            <!-- Logo -->
+            <h1 class="logo">Jessica's Portfolio</h1>
+            
+            <!-- Navigation -->
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <img src="img/Main-photo.png" alt="Jessica Ninda Kalistya Putri" class="profile-photo">
+        <h1>Hello, I'm Jessica!</h1>
+        <p>A passionate English Literature graduate from Universitas Sanata Dharma, Yogyakarta.</p>
+        <a href="#about" class="btn-primary">Get to Know About Me</a>
+    </section>
+    
+    
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <!-- Foto Profil -->
+        <div class="box-profile">
+            <img src="img/about-me-photo.png" alt="Jessica Ninda Kalistya Putri" class="profile-photo">
+            <div class="moots">
+                <a href="https://www.instagram.com/jeyshe.k/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jessica-nindaa/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="Jessica_Ninda_Kalistya_Putri_-_CV_update_2.pdf" class="cv" target="_blank">View my CV</a>
+            </div>
+        </div>
+        
+        <!-- Konten Teks -->
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                My name is Jessica Ninda Kalistya Putri, used to called as Jey. I am a fresh graduate from English arts and letters, born in Jakarta, 7 June 2002. Growing up in a modest family in Indonesia made me an independent and cheerful person. I am a very sociable and adaptable person.
+                <br>I love to translate books or used to translate some documents. Sometimes, I also translate videos in the form of subtitles. Side of my interest with translation, I also have an interest with language and writings. 
+            </p>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-list">
+            <div class="skill-item" data-description="Skilled in crafting short stories, poetry, and engaging original fiction. Experienced in creating creative content that conveys emotions, builds atmosphere, and captures the reader’s attention. With a background in English Literature, possesses a deep understanding of narrative structure, characterization, and effective writing styles."><i class="fas fa-pencil-alt"></i> Creative Writing</div>
+            <div class="skill-item" data-description="Proficient in translating texts between English and Indonesian with accuracy and cultural sensitivity. Skilled in maintaining the original meaning, tone, and context while adapting the language to suit the target audience. Experienced in translating various types of content, including academic papers, creative works, and professional documents. With a strong foundation in English Literature, possesses an excellent grasp of grammar, idiomatic expressions, and nuanced language."><i class="fas fa-language"></i> Translation</div>
+            <div class="skill-item" data-description="Highly skilled in both verbal and written communication, with the ability to express ideas clearly and effectively. Experienced in delivering presentations, participating in group discussions, and collaborating with diverse teams. Proficient in active listening, ensuring mutual understanding, and adapting communication styles to suit different audiences. With a background in English Literature, also adept at formal and persuasive communication."><i class="fas fa-comments"></i> Communication</div>
+            <div class="skill-item" data-description="Skilled in creating visually appealing designs and editing content using Canva. Experienced in designing posters, social media posts, presentations, and marketing materials with a focus on creativity and brand consistency. Proficient in leveraging Canva's tools to produce professional, high-quality visuals tailored to specific purposes. Attention to detail and an eye for aesthetics ensure that every design communicates effectively and looks polished."><i class="fas fa-edit"></i> Editing</div>
+        </div>
+
+        <!-- Pop-up untuk deskripsi -->
+        <div id="skill-description" class="skill-description hidden">
+        <p id="description-text"></p>
+        <button onclick="hideSkillDescription()">Close</button>
+    </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <img src="img/project1.png" alt="Project 1">
+                <div class="project-content">
+                    <h4>Article</h4>
+                    <h3>Melting Ice at The North Pole</h3>
+                    <a href="#">Visit Project</a>
+                    <p>This article is made in accordance with the true events experienced that occurred at that time, which was in 2021.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project2.png" alt="Project 2">
+                <div class="project-content">
+                    <h4>Copywriting - Instagram</h4>
+                    <h3>Kucing Sadhar</h3>
+                    <a href="#">Visit Project</a>
+                    <p>This Instagram was created as an update about sadhar cats that are cared for and maintained, besides this account also often shares various kinds of information about cats such as how to care for cats, cat health and others. </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project3.png" alt="Project 3">
+                <div class="project-content">
+                    <h4>Translation</h4>
+                    <h3>Subtitler Experience</h3>
+                    <a href="#">Visit Project</a>
+                    <p>This is one of my project in the sixth semester in Audio-Visual Translation course. I created English translations in the form of subtitles using application called Aegisub and applied them directly to the video.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project4.png" alt="Project 4">
+                <div class="project-content">
+                    <h4>UI/UX Design</h4>
+                    <h3>Tomatoon</h3>
+                    <a href="#">Visit Project</a>
+                    <p>This is one of my project in the fifth semester especially in UI/UX Writings course. In this course, I learn how to make a proper UX Writings for applications. This project is one of my ideas to make a free reading website. I designed and determine the UX Writings for the website itself.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form
+            id="my-form"
+            method="POST" 
+            action="https://script.google.com/macros/s/AKfycbzxzx2L2fFg403mT3Ny8MhqWpFGS2dJZF09YTXuNW25dp-7Se3fQ87u4D2Hz5InsyxgMA/exec">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" name="nama">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your Message" name="pesan"></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+        <div class="social-links">
+            <span class="social">
+                <i class="fa-solid fa-envelope"></i>
+                <p>realjessicaninda@gmail.com</p>
+            </span>
+            <span class="social">
+                <i class="fa-brands fa-square-whatsapp"></i>
+                <p>(+62) 123 456 789</p>
+            </span>
+            <span class="social">
+                <i class="fab fa-linkedin"></i>
+                <p>Jessica Ninda</p>
+            </span>
+        </div>
+    </section>
+
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-about">
+                <h3>About Me</h3>
+                <p>
+                    Jessica Ninda Kalistya Putri, an English Literature graduate from Sanata Dharma University, passionate about creative writing, translation, and communication.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Jessica Ninda Kalistya Putri. All Rights Reserved. This Website designed by <a href="https://www.linkedin.com/in/baqir-shaoma/" target="_blank">@baqir shaoma</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</html>
