@@ -580,6 +580,10 @@ background-color: #d1477f; /* Darker pink on hover */
 
 @media (max-width: 768px) {
     /* Untuk perangkat ponsel */
+    * {
+        font-style: normal !important;
+    }
+    
     .nav-links {
         display: none; /* Sembunyikan navbar pada layar kecil */
     }
