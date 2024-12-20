@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Comic Neue", serif;
+    font-family: 'Comic Sans MS', cursive;
     scroll-behavior: smooth;
 }
 
@@ -583,6 +583,12 @@ background-color: #d1477f; /* Darker pink on hover */
         font-family: "Comic Neue", serif;
         font-style: normal;
     }
+
+    body, h1, h2, h3, h4, h5, h6, p, a, span, div {
+        font-family: "Comic Neue", serif;
+        font-style: normal;
+    }
+
     
     .nav-links {
         display: none; /* Sembunyikan navbar pada layar kecil */
