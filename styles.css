@@ -578,18 +578,7 @@ background-color: #d1477f; /* Darker pink on hover */
 }
 
 @media (max-width: 768px) {
-    /* Untuk perangkat ponsel */
-    * {
-        font-family: "Comic Neue", serif;
-        font-style: normal;
-    }
-
-    body, h1, h2, h3, h4, h5, h6, p, a, span, div {
-        font-family: "Comic Neue", serif;
-        font-style: normal;
-    }
-
-    
+    /* Untuk perangkat ponsel */ 
     .nav-links {
         display: none; /* Sembunyikan navbar pada layar kecil */
     }
