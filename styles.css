@@ -580,7 +580,8 @@ background-color: #d1477f; /* Darker pink on hover */
 @media (max-width: 768px) {
     /* Untuk perangkat ponsel */
     * {
-        font-style: normal !important;
+        font-family: "Comic Neue", serif;
+        font-style: normal;
     }
     
     .nav-links {
