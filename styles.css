@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Comic Neue", serif;
     scroll-behavior: smooth;
 }
 
@@ -22,7 +22,7 @@
     font-size: 1.8rem;
     font-weight: bold;
     color: #ffffff; /* White logo text */
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Comic Neue", serif;
     margin: 0;
     display: inline-block;
 }
@@ -76,7 +76,7 @@
     font-size: 3rem;
     color: #d1477f; /* Darker pink for title */
     margin-bottom: 10px;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Comic Neue", serif;
 }
 
 .home p {
@@ -157,7 +157,7 @@
     font-size: 2.5rem;
     color: #d1477f; /* Darker pink for the title */
     margin-bottom: 20px;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Comic Neue", serif;
 }
 
 .about .about-content p {
@@ -212,7 +212,7 @@ background-color: #d1477f; /* Darker pink on hover */
     font-size: 2.5rem;
     color: #d1477f; /* Darker pink */
     margin-bottom: 30px;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Comic Neue", serif;
 }
 
 .skills .skill-list {
@@ -299,7 +299,7 @@ background-color: #d1477f; /* Darker pink on hover */
     font-size: 2.5rem;
     color: #d1477f;
     margin-bottom: 30px;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Comic Neue", serif;
 }
 
 .projects .project-list {
@@ -338,7 +338,7 @@ background-color: #d1477f; /* Darker pink on hover */
     font-size: 1.5rem;
     color: #d1477f;
     margin-bottom: 10px;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Comic Neue", serif;
 }
 
 .projects .project-card p {
@@ -378,7 +378,7 @@ background-color: #d1477f; /* Darker pink on hover */
     font-size: 2.5rem;
     color: #d1477f;
     margin-bottom: 30px;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Comic Neue", serif;
 }
 
 .contact form {
